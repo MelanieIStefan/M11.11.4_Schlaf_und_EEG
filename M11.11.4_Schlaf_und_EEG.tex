@@ -66,17 +66,6 @@ $\,$\\[6cm]
 \end{frame} 
 }
 
-{ \usebackgroundtemplate{\includegraphics[width=1.2\paperwidth]{MSB_Titelseite.pdf}} 
-\begin{frame}
-
- \maketitle 
-
-$\,$\\[6cm] 
-
-
-\end{frame} 
-}
-
 
 %% Hook: 
 
@@ -296,14 +285,29 @@ Die Fourier-Analyse leistet mathematisch genau das
 
 
 %% Fourieranaylse
+
 \begin{frame}
 \frametitle{Fourieranalyse: Illustration}
 
-\centering
-\animategraphics[loop]{5}{fourier}{1}{93}
 
-\end{frame}
+\begin{center}
+\href{https://commons.wikimedia.org/wiki/File:Fourier_transform_time_and_frequency_domains_(small).gif#/media/Datei:Fourier_transform_time_and_frequency_domains_(small).gif}{\includegraphics[width=0.8\textwidth]{fourier1.png}}
+    
+\end{center}
+ 
+ \end{frame}
 
+
+%% Animate code: Would be more elegant if it was actually working
+% \begin{frame}
+% \frametitle{Fourieranalyse: Illustration}
+
+% \begin{center}
+% \animategraphics[loop]{5}{/home/melanie/Work/pictures/physics/fourier}{1}{93}
+
+
+% \end{center}
+% \end{frame}
 
 
 
@@ -311,7 +315,7 @@ Die Fourier-Analyse leistet mathematisch genau das
 \begin{frame}{Um welche Art von Welle handelt es sich hier?}
 
 \begin{center}
-    \includegraphics[width=0.8\textwidth]{fourier_alpha.png}
+    \includegraphics[width=0.8\textwidth]{alpha_fourier.png}
 \end{center}
     
 \end{frame}
@@ -319,7 +323,7 @@ Die Fourier-Analyse leistet mathematisch genau das
 % - Arten von Wellen
 
 
-{ \usebackgroundtemplate{\includegraphics[width=1.2\paperwidth]{EEG_gesund.pdf}} 
+{ \usebackgroundtemplate{\includegraphics[width=\paperwidth]{EEG_gesund.pdf}} 
 \begin{frame}
 
 
@@ -410,7 +414,9 @@ Die "innere Uhr" läuft weiter, braucht aber etwas mehr als 24 Stunden.
 
 
 % - Molekularer Oszillator im SCN
-\begin{frame}{}
+\begin{frame}{Molekulare Uhr im SCN}
+    
+    
     
 \end{frame}
 
@@ -548,7 +554,7 @@ Träume (?)
     Übergang von Alpha- zu Beta-Wellen
     
     \begin{center}
-            \includegraphics[width=\textwidth]{Sleep_EEG_Stage_1.jpg}
+            \includegraphics[width=0.8\textwidth]{Sleep_EEG_Stage_1.jpg}
 
     \end{center}
     
@@ -561,7 +567,7 @@ Träume (?)
     Schlafspindeln und K-Komplexe
     
     \begin{center}
-            \includegraphics[width=\textwidth]{Sleep_EEG_Stage_2.jpg}
+            \includegraphics[width=0.8\textwidth]{Sleep_EEG_Stage_2.jpg}
 
     \end{center}
     
@@ -574,7 +580,7 @@ Träume (?)
     Delta-Wellen mit hoher Amplitude
 
     \begin{center}
-            \includegraphics[width=\textwidth]{Sleep_EEG_Stage_4.jpg}
+            \includegraphics[width=0.8\textwidth]{Sleep_EEG_Stage_4.jpg}
 
     \end{center}
     
@@ -587,7 +593,7 @@ Träume (?)
 EEG ähnlich wie bei Wachheit oder leichtem Schlaf. Schnelle Bewegungen der Augenmuskeln
 
     \begin{center}
-            \includegraphics[width=\textwidth]{Sleep_EEG_REM.png}
+            \includegraphics[width=0.8\textwidth]{Sleep_EEG_REM.png}
 
     \end{center}
     
@@ -677,22 +683,29 @@ Dauer eines Anfalls im Sekunden- bis Minutenbereich.
 
 % Diagnose
 
-% \begin{frame}{Es gibt nicht "eine" Epilepsie}
+\begin{frame}{Es gibt nicht "eine" Epilepsie}
 
-% \begin{itemize}
-%     \item 
-%     Gelegenheitsanfälle sind relativ häaufig (Bis zu \(10\,\%\) erleben einmal im Leben einen Anfall)
-%     \item
-%     Genetische Faktoren 
-%     \item
-%     Hirnsch
+\begin{itemize}
+    \item 
+    Gelegenheitsanfälle sind relativ häufig (Bis zu \(10\,\%\) erleben einmal im Leben einen Anfall)
+    \item
+    genetische Faktoren (Epilepsiesyndrom oder Nebeneffekt einer anderen genetischen Erkrankung)
+    \item
+    Schädigung des Gehirns, z.B. durch Trauma, Sauerstoffmangel bei Geburt, Tumor, Infektion, \dots
+    \item
+    Auslöser wie Fieber, Schlafmangel, Alkohol, Alkoholentzug, Drogen, flickerndes Licht, \dots
      
-% \end{itemize}
+\end{itemize}
 
  
 
-% \end{frame} 
+\end{frame} 
 
+% \begin{frame}{Es gibt nicht "eine" Epilepsie}
+
+
+
+% \end{frame} 
 
 % Medication
 
@@ -790,7 +803,7 @@ erklären, wie sich das EEG bei einer epileptischen Episode darstellt
 \frametitle{Bildnachweis}
 \begin{tiny}
 
-Teile dieser Vorlesung wurden übernommen von einer Vorlesung von Prof. Emanuel Busch,  Health and Medical University Potsdam. Wo nicht anders gekennzeichnet, stammen Abbildungen aus dieser Vorlesung.  
+Teile dieser Vorlesung wurden übernommen von einer Vorlesung von Prof. Emanuel Busch,  Health and Medical University Potsdam, dem wir an dieser Stelle herzlich danken. Wo nicht anders gekennzeichnet, stammen Abbildungen aus dieser Vorlesung.  
 
 
  
@@ -813,8 +826,6 @@ Elektroden-Positionierung nach 10-10 System. By Laurens R. Krol - Own work, CC0,
 \item
 Fourier-Analyse: Animation. Lucas V. Barbosa, Public domain, via Wikimedia Commons
 
-\item
-Glykogen. By Mikael Häggström.When using this image in external works, it may be cited as:Häggström, Mikael (2014). &quot;Medical gallery of Mikael Häggström 2014&quot;. WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.orBy Mikael Häggström, used with permission. - Own work (Original text: Own work by uploader, using following images:)Glucose (Public Domain license).Glycogenin structure (Public Domain license).Structure reference: Similar image on scientificpsychic.com --; Carbohydrates - Chemical Structure. By Antonio Zamora on May 27, 2009, Public Domain \url{https://commons.wikimedia.org/w/index.php?curid=6880883} 
 
 %% all lectures
 \item
@@ -838,6 +849,19 @@ N3 Schlafstadium im EEG. Gemeinfrei, \url{https://commons.wikimedia.org/w/index.
 \item
 Position des Nucleus Suprachiasmaticus im Gehirn. By 黄雨伞 - Own work, CC BY-SA 3.0, \url{https://commons.wikimedia.org/w/index.php?curid=30518604}
 
+\end{itemize}
+\end{tiny}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bildnachweis}
+\begin{tiny}
+
+ 
+\begin{itemize}
+
+
+
 \item
 REM Schlaf im EEG. Von MrSandman in der Wikipedia auf Englisch - Übertragen aus en.wikipedia nach Commons., Gemeinfrei, \url{https://commons.wikimedia.org/w/index.php?curid=453205}
 
@@ -855,9 +879,7 @@ Schlafzyklus. Von Schlafgut - Eigenes Werk, CC BY-SA 3.0, \url{https://commons.w
 
 Theta-Wellen. Von Hugo Gamboa - This is raw eeg. The signal was acquired in the Oz position processed with scipy and saved with matplolib., CC BY-SA 3.0, \url{https://commons.wikimedia.org/w/index.php?curid=473247}
 
-\item
-Verschiedene Wellenformen im EEG. Modifiziert nach Laurens R. Krol, CC0, via Wikimedia Commons 
-  
+
 
 \end{itemize}
 \end{tiny}
