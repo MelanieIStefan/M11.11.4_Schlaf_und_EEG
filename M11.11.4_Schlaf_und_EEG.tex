@@ -22,7 +22,7 @@
 
 \usepackage{pdfpages}%% include pdfs
 
-
+\usepackage{graphicx}
 \usepackage{animate} %% show animated gifs
 
 \DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
@@ -66,6 +66,16 @@ $\,$\\[6cm]
 \end{frame} 
 }
 
+{ \usebackgroundtemplate{\includegraphics[width=1.2\paperwidth]{MSB_Titelseite.pdf}} 
+\begin{frame}
+
+ \maketitle 
+
+$\,$\\[6cm] 
+
+
+\end{frame} 
+}
 
 
 %% Hook: 
@@ -256,6 +266,47 @@ Positionierung von Elektroden an spezifischen Stellen (Vielfache von \(10\,\%\))
 
 % Fourier transformation
 
+%% Fourieranaylse
+
+\begin{frame}
+\frametitle{Flashback Physik}
+
+\textcolor{theme}{Wie geht Fourieranalyse und für was brauchen wir sie?}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Fourieranalyse: Idee}
+
+
+\begin{itemize}
+\item
+Jede komplexe Wellenform kann im Prinzip als Überlagerung von Sinuswellen verschiedener Frequenzen dargestellt werden
+\item
+Manchmal interessiert uns, welche Frequenzen wieviel zur Wellenform beitragen (zum Beispiel hier beim EEG!)
+\item
+Dafür möchten wir eine Darstellung ``im Frequenzraum'' (statt Zeit stellen wir Frequenz auf der x-Achse dar)
+\item
+Die Fourier-Analyse leistet mathematisch genau das  
+\end{itemize}
+
+
+\end{frame}
+
+
+
+%% Fourieranaylse
+\begin{frame}
+\frametitle{Fourieranalyse: Illustration}
+
+\centering
+\animategraphics[loop]{5}{fourier}{1}{93}
+
+\end{frame}
+
+
+
+
 
 \begin{frame}{Um welche Art von Welle handelt es sich hier?}
 
@@ -268,9 +319,20 @@ Positionierung von Elektroden an spezifischen Stellen (Vielfache von \(10\,\%\))
 % - Arten von Wellen
 
 
+{ \usebackgroundtemplate{\includegraphics[width=1.2\paperwidth]{EEG_gesund.pdf}} 
+\begin{frame}
+
+
+\end{frame} 
+}
+
 
 % - Beispiel: alpha Blockade
 
+
+
+
+% - Evozierte Potenziale
 
 \section{Zirkadiane Rhythmen}
 
@@ -747,6 +809,9 @@ EEG bei Epilspsie. CC BY-SA 2.0, \url{https://commons.wikimedia.org/w/index.php?
 
 \item
 Elektroden-Positionierung nach 10-10 System. By Laurens R. Krol - Own work, CC0, \url{https://commons.wikimedia.org/w/index.php?curid=96859272}
+
+\item
+Fourier-Analyse: Animation. Lucas V. Barbosa, Public domain, via Wikimedia Commons
 
 \item
 Glykogen. By Mikael Häggström.When using this image in external works, it may be cited as:Häggström, Mikael (2014). &quot;Medical gallery of Mikael Häggström 2014&quot;. WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.orBy Mikael Häggström, used with permission. - Own work (Original text: Own work by uploader, using following images:)Glucose (Public Domain license).Glycogenin structure (Public Domain license).Structure reference: Similar image on scientificpsychic.com --; Carbohydrates - Chemical Structure. By Antonio Zamora on May 27, 2009, Public Domain \url{https://commons.wikimedia.org/w/index.php?curid=6880883} 
